@@ -1,0 +1,21 @@
+
+footer {
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -40px;
+  
+ 
+    
+}
+.foot-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    cursor: pointer;
+    
+}
+.foot-links h5{
+    color: black;
+}

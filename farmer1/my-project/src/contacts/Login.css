@@ -1,0 +1,72 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.one, .two {
+  width: 300px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.one:focus, .two:focus {
+  border-color: #27ae60;
+} 
+
+
+button:hover {
+  background: #219150;
+}
+
+
+@media (max-width: 400px) {
+  .one, .two, button {
+      width: 90%;
+  }
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url('C:\Users\likhi_iubtuck\FSD_Upgrade\Fullstack\Fullstack\farmer1\my-project\public\tamato.jpeg');
+  position: relative;
+}
+
+.conta {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ .conta h1 {
+  color: aliceblue;
+  font-size: xx-large;
+}
+p {
+  color: azure;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+

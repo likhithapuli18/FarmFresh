@@ -1,0 +1,68 @@
+.navbar {
+    position : fixed;
+    top : 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: seagreen;
+    padding: 10px;
+    color: black;
+  }
+  
+  
+  .spin-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    
+    animation: spin3d 3s linear infinite;
+    transform-style: preserve-3d;
+  }
+  
+  @keyframes spin3d {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .nav-menu {
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .nav-menu:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+ 
+  
+  .profile-container {
+    background: #f8f9fa;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .profile-container p {
+    font-size: 16px;
+    color: #555;
+  }
+  
